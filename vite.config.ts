@@ -13,8 +13,8 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  build: {
-    //   set the base to the github repo name
-    base: '/dnd-hit-calculator/',
-  }
+  // build: {
+  //   //   set the base to the github repo name
+  //   base: '/dnd-hit-calculator/',
+  // }
 })
