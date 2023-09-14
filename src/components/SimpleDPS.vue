@@ -38,6 +38,7 @@
 
 
 <script lang="ts" setup>
+//https://rpg.stackexchange.com/questions/70335/how-do-i-calculate-the-chance-to-hit-a-given-ac
 import {ref} from "vue";
 import DmgCalculation from "@/components/DmgCalculation.vue";
 
