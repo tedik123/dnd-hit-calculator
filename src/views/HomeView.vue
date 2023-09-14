@@ -1,7 +1,7 @@
 <template>
   <main>
-    <h1>DND Damage Calculator</h1>
-    <div class="flex flex-row flex-wrap justify-content-center gap-8">
+    <h1 class="flex justify-content-center ">DND Damage Calculator</h1>
+    <div class="flex flex-row flex-wrap justify-content-center gap-7">
       <SimpleDPS ref="simpleDPSComponent"/>
       <div class="flex align-items-start ">
         <DmgCalculation v-if="isMounted" :AC="simpleDPSComponent?.AC" :accuracy="simpleDPSComponent?.accuracy"

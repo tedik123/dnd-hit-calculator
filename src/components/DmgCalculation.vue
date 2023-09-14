@@ -1,6 +1,5 @@
 <template>
-  <div class="flex flex-column">
-
+  <div class="flex flex-column mb-8 sm:mb-4 md:mb-2 -mt-7  md:mt-0">
   <h1>Probability</h1>
   <div class="surface-0 calculation-container">
     <h2 class="stat-headers">Chance To Hit</h2>
