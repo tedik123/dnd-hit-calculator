@@ -15,7 +15,8 @@
 </template>
 
 <script lang="ts" setup>
-import {computed, PropType} from "vue";
+import {computed } from "vue";
+import {PropType} from "vue"
 
 let props = defineProps({
   accuracy: {type: Number, required: true},

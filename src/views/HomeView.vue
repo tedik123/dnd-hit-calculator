@@ -20,7 +20,7 @@ import SimpleDPS from "@/components/SimpleDPS.vue";
 import DmgCalculation from "@/components/DmgCalculation.vue";
 import {onMounted, ref} from "vue";
 
-const simpleDPSComponent = ref(null)
+const simpleDPSComponent = ref<any>(null)
 const isMounted = ref(false)
 onMounted(() => {
   // const [AC, accuracy, dmgBonus, dmgDice] = simpleDPSComponent.value
