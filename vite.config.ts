@@ -14,8 +14,8 @@ export default defineConfig({
     }
   },
   base: '/dnd-hit-calculator/',
-  build: {
-    outDir: 'docs'
-  }
+  // build: {
+  //   outDir: 'docs'
+  // }
 
 })
